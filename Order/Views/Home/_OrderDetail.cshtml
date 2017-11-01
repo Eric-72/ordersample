@@ -1,0 +1,44 @@
+﻿@model List<Order.Models.OrderDetailViewModel>
+
+<h1>Order Details</h1>
+
+<table class="table">
+    <tr>
+        <th>
+            Order Id
+        </th>
+        <th>
+            Item Id
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Total
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Total)
+        </td>
+    </tr>
+}
+
+</table>

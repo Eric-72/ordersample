@@ -1,0 +1,43 @@
+﻿@model List<Order.Models.OrderViewModel>
+
+<h3>Razor Version</h3>
+<h1>Orders</h1>
+<table class="table table-hover">
+    <tr>
+        <th></th>
+        <th>Order Id</th>
+        <th>Order Date</th>
+        <th>Customer Id</th>
+        <th>Status</th>
+        <th>Comment</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Ajax.ActionLink("Order Details",
+                                "OrderDetail", 
+                                new { id = item.OrderId },
+                                new AjaxOptions
+                                {
+                                    HttpMethod = "GET",
+                                    InsertionMode = InsertionMode.Replace,
+                                    UpdateTargetId = "OrderDetails"
+                                })
+            </td>
+            <td>@item.OrderId</td>
+            <td>@item.OrderDate</td>
+            <td>@item.CustomerId</td>
+            <td>@item.Status</td>
+            <td>@item.Comment</td>
+        </tr>
+    }
+</table>
+<br />
+<div id="OrderDetails">
+
+</div>
+
+@section scripts{
+    @Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.min.js")
+}

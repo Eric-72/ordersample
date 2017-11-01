@@ -1,0 +1,12 @@
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\Order.Service.dll.config
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\Order.Service.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\Order.Service.pdb
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\EntityFramework.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\Order.Data.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\Order.Data.pdb
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\EntityFramework.xml
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\obj\Debug\Order.Service.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\obj\Debug\Order.Service.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Service\obj\Debug\Order.Service.pdb

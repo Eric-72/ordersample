@@ -1,0 +1,43 @@
+﻿
+<div class="alert alert-danger" ng-if="hasFormError">{{ formErrors }}</div>
+<h1>Orders</h1>
+<div id="masterdiv">
+    <table class="table table-hover">
+        <tr>
+            <th>Order Id</th>
+            <th>Order Date</th>
+            <th>Customer Id</th>
+            <th>Status</th>
+            <th>Comment</th>
+        </tr>
+        <tr id="{{Order.OrderId}}" ng-repeat='Order in orders'  ng-click="selectOrder(Order.OrderId);">
+            <td> {{Order.OrderId}} </td>
+            <td> {{Order.OrderDate}} </td>
+            <td> {{Order.CustomerId}} </td>
+            <td> {{Order.Status}} </td>
+            <td> {{Order.Comment}} </td>
+        </tr>
+    </table>  
+</div>
+<br />
+<div id="detailsdiv" ng-if="orderDetails">
+    <h1>Order Details</h1>
+    <table class="table">
+        <tr>
+            <!--<th>OrderDetail Id</th>-->
+            <th>Order Id</th>
+            <th>Item Id</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        <tr id="{{OrderDetail.OrderDetailId}}" ng-repeat='OrderDetail in orderDetails' >
+            <!--<td> {{OrderDetail.OrderDetailId}} </td>-->
+            <td> {{OrderDetail.OrderId}} </td>
+            <td> {{OrderDetail.ItemId}} </td>
+            <td> {{OrderDetail.Quantity}} </td>
+            <td> {{OrderDetail.Price}} </td>
+            <td> {{OrderDetail.Total}} </td>
+        </tr>
+    </table>  
+</div>

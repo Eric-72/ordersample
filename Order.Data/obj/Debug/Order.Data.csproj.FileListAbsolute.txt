@@ -1,0 +1,13 @@
+c:\Users\Eric\documents\visual studio 2015\Projects\Order\Order.Data\obj\Debug\Order.Data.Migrations.InitialCreate.resources
+c:\Users\Eric\documents\visual studio 2015\Projects\Order\Order.Data\obj\Debug\Order.Data.csproj.GenerateResource.Cache
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\bin\Debug\Order.Data.dll.config
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\bin\Debug\Order.Data.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\bin\Debug\Order.Data.pdb
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\bin\Debug\EntityFramework.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\bin\Debug\EntityFramework.xml
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\obj\Debug\Order.Data.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\obj\Debug\Order.Data.pdb
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\obj\Debug\Order.Data.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\Order\Order.Data\obj\Debug\Order.Data.Migrations._20171030update.resources

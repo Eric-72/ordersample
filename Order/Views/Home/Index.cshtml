@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h3>This application includes the items below:</h3>
+    <small>
+        <ul>
+            <li>Registration and login required for the pages containing data</li> 
+            <li>Order: MVC + Web API project, contains the Razor and AngularJS versions of the Orders/OrderDetails </li>
+            <li>Order.Data: Class library project, this is data layer and contains entities, entity framework and database functionalities </li>
+            <li>Order.Service: Class library project, this is service layer and uses data layer to get data </li>
+            <li>Order.Tests: Test project, it covers 5 test cases of Web API </li>
+            <li>ASP.NET Identity 2 </li>
+            <li>Entity Framework code first </li>
+            <li>Unity dependency injection </li>
+            <li>Database file is located in App_Data folder</li>
+        </ul>
+    </small>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Web API URLs</h3>
+        <p>
+            <b>Get all Orders:</b> "api/Orders/GetAll"
+            <br />
+            <b>Get details of orderId=2:</b> "api/Orders/2/GetDetails"
+            <br />
+            <b>Web API Controller:</b> OrdersController.cs
+        </p>
+        
+    </div>
+    <div class="col-md-4">
+        <h3>AngularJS files</h3>
+        All files are located in "app" folder except one
+        <ul>
+            <li>order.html</li>
+            <li>orderController.js</li>
+            <li>orderService.js</li>
+            <li>app.js</li>
+            <li>OrderAngular.cshtml</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h3>MVC Razor files</h3>
+        <ul>
+            <li>HomeController.cs</li>
+            <li>AccountController.cs</li>
+            <li>Order.cshtml</li>
+            <li>_OrderDetail.cshtml</li>
+        </ul>
+        
+    </div>
+</div>
